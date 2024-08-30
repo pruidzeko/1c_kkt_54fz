@@ -1,8 +1,8 @@
 name: Регулярный запуск на проверку, каждые 30 минут
 
 on:
-  schedule:
-    - cron: '*/30 * * * *'
+  # schedule:
+    # - cron: '*/30 * * * *'
   workflow_dispatch:
   
 jobs:
